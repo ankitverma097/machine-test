@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 70vw;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.parent-input-div-first{
+  display: flex;
+  gap: 2rem;
+}
+.parent-input-div-second{
+  display: flex;
+  gap: 2rem;
+}
+
+.child-input-div{
+  gap: 5px;
+  flex: 1;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.child-address-input-div {
+  display: flex;
+  flex-direction: column;
+
+}
+.child-residential-address-input-div{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.checkbox {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.document-child-component-main-div{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 20px;
+}
